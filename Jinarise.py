@@ -99,13 +99,13 @@ from pyrogram.errors import (
 load_dotenv()
 
 # Replace with your actual API credentials
-API_ID = 28109322 # Replace with your actual API ID
-API_HASH = "93e79f71020f32c3fc78eb85a013515a"
-API_TOKEN = "7680103909:AAF4pAGERtFqIr9uu4USVN0dNgFI9SjAYp0" 
-BOT_USERNAME = "@JinArisedBot"
+API_ID = # Replace with your actual API ID
+API_HASH = ""
+API_TOKEN = "" 
+BOT_USERNAME = ""
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=API_TOKEN)
 
-GEMINI_API_TOKEN = "AIzaSyDdBvqeAkLkOBK53JGenbunDh8Gy4RjwMI"  # Replace with your actual API token
+GEMINI_API_TOKEN = ""  # Replace with your actual API token
 # Gemini API endpoint
 GEMINI_API_URL = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_TOKEN}'
 
